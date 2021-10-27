@@ -34,7 +34,7 @@ export default class IndexScreen extends BaseComponent {
         this.setState(tmpState);
     }
 
-    handleClick($inputCheck, $lableContent, $title, couter) {
+    handleClick($inputCheck, $lableContent) {
 
         if ($inputCheck.checked) {
             $lableContent.style.textDecoration = 'line-through';
