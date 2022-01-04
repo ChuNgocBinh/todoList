@@ -17,6 +17,7 @@ export default class InputWraper extends BaseComponent {
         $inputElement.onchange = this.props.onchange;
 
         let $btnAdd = document.createElement("button");
+        $btnAdd.type= 'submit';
         $btnAdd.innerHTML = 'Add'
         $btnAdd.className = 'btn btn-primary';
 
